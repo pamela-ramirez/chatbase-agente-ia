@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/help",
+      "destination": "https://chatbase.co/aDfY7IYXM4BCam_gp_U8F/help"
+    },
+    {
+      "source": "/help/:path*",
+      "destination": "https://chatbase.co/aDfY7IYXM4BCam_gp_U8F/help/:path*"
+    },
+    {
+      "source": "/__cb/:path*",
+      "destination": "https://chatbase.co/__cb/:path*"
+    },
+    {
+      "source": "/api/chat/TU_AGENT_ID/:path*",
+      "destination": "https://chatbase.co/api/chat/aDfY7IYXM4BCam_gp_U8F/:path*"
+    }
+  ]
+}

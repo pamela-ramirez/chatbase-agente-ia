@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sonrisa Uruguaya - Clínica Dental</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #2D3748;
+    background: #F7FAFC;
+  }
+  header {
+    background: #2B6CB0;
+    color: white;
+    padding: 22px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 28px;
+    font-size: 15px;
+  }
+  .hero {
+    background: linear-gradient(135deg, #EAF3FC, #F7FAFC);
+    padding: 70px 40px;
+    text-align: center;
+  }
+  .hero h2 {
+    font-size: 34px;
+    color: #1A365D;
+    margin-bottom: 16px;
+  }
+  .hero p {
+    font-size: 18px;
+    color: #4A5568;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .card {
+    background: white;
+    border-radius: 14px;
+    padding: 26px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  .card h3 {
+    color: #2B6CB0;
+    margin-bottom: 12px;
+    font-size: 19px;
+  }
+  .card p, .card li {
+    color: #4A5568;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  footer {
+    text-align: center;
+    padding: 30px;
+    color: #718096;
+    font-size: 14px;
+  }
+  .badge {
+    display: inline-block;
+    background: #FEF3D8;
+    color: #7B4B0A;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-top: 14px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🦷 Sonrisa Uruguaya</h1>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Clínica Dental en Montevideo</h2>
+  <p>Cuidamos tu sonrisa con atención profesional, cercana y de confianza.</p>
+  <div class="badge">Lunes a viernes 9:00–18:00 · Sábados 9:00–13:00</div>
+</section>
+
+<div class="content">
+  <div class="card">
+    <h3>Nuestros servicios</h3>
+    <ul>
+      <li>Limpieza dental</li>
+      <li>Blanqueamiento</li>
+      <li>Ortodoncia</li>
+      <li>Atención de urgencias</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Urgencias</h3>
+    <p>Atendemos urgencias todos los días, incluso fuera de horario, llamando al número de guardia. Las urgencias pediátricas (menores de 12 años) se derivan al Hospital Pediátrico más cercano.</p>
+  </div>
+</div>
+
+<footer>
+  Sonrisa Uruguaya · Montevideo, Uruguay
+</footer>
+
+<!-- ======================================================= -->
+<!-- PEGAR ACÁ ABAJO EL SCRIPT DEL WIDGET DE CHATBASE          -->
+<!-- (Deploy → Website widget → copiar y pegar antes de </body>) -->
+<!-- ======================================================= -->
+<script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="aDfY7IYXM4BCam_gp_U8F";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+
+
+</body>
+</html>
